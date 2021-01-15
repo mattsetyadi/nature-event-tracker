@@ -94,3 +94,21 @@ body {
   padding: 5px 0;
 }
 
+@media screen and (max-width: 700) {
+  .location-info {
+    position: absolute;
+    top: 130px;
+    right: 50px;
+    width: 200px;
+    min-height: 200px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .header h1 {
+    font-size: 18px;
+  }
+}

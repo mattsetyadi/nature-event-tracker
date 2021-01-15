@@ -9,6 +9,11 @@ const LocationInfoBox = ({ info }) => {
         <li>
           Title: <strong>{info.title}</strong>
         </li>
+        {info.description && (
+          <li>
+            Desc: <strong>{info.description}</strong>
+          </li>
+        )}
       </ul>
     </div>
   );
